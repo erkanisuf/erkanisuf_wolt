@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.Carousel {
+  width: 90%;
+  margin: 15px auto;
+}
+
+.Carousel h1 {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.arrowStyle {
+  font-size: 60px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.arrowStyle:hover {
+  color: grey;
+}
