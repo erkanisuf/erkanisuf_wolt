@@ -85,7 +85,7 @@ function CarouselComp({ data, allRestaurants }) {
           //////////////// Under 500 (mobile) shows only 1 , not possible to fit 5 per view :D
           500: {
             slidesPerPage: 1,
-
+            slidesPerScroll: 1,
             clickToChange: false,
             centered: false,
 

@@ -34,3 +34,15 @@
 .LogoHolder img {
   width: 100px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .transperantBackground {
+    width: 100%;
+  }
+  .LogoHolder {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

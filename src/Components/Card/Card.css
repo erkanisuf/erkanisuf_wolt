@@ -44,3 +44,16 @@
   padding-bottom: 7px;
   color: grey;
 }
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 100%;
+    height: 300px;
+  }
+  .StatusText {
+    flex-direction: column;
+  }
+  .TitleBox {
+    min-height: 65px;
+  }
+}

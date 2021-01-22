@@ -23,3 +23,12 @@
 .arrowStyle:hover {
   color: grey;
 }
+
+@media only screen and (max-width: 768px) {
+  .Carousel {
+    width: 100%;
+  }
+  .Carousel h1 {
+    text-align: center;
+  }
+}
